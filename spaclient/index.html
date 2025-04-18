@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotes SPA CLIENT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Quotes SPA CLIENT</h1>
+  <form id="quote-form">
+    <input type="text" id="content" placeholder="Quote content" required />
+    <input type="text" id="author" placeholder="Author (optional)" />
+    <button type="submit">Add Quote</button>
+  </form>
+
+  <div>
+    <input list="tag-suggestions" id="tag-filter" placeholder="Filter by tag..." />
+    <datalist id="tag-suggestions"></datalist>
+    <button id="filter-button">Filter</button>
+    <button id="clear-filter">Clear</button>
+  </div>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Content</th>
+        <th>Author</th>
+        <th>Likes</th>
+        <th>Tags</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="quotes-body"></tbody>
+  </table>
+
+  <script>
+    const apiUrlWebApi = 'http://localhost:5191';
+    let allTags = [];
+
+    async function fetchTags() {
+      const res = await fetch(`${apiUrlWebApi}/api/tags`, { mode: 'cors' });
+      allTags = await res.json();
+      const datalist = document.getElementById('tag-suggestions');
+      datalist.innerHTML = '';
+      allTags.forEach(tag => {
+        const option = document.createElement('option');
+        option.value = tag.name;
+        datalist.appendChild(option);
+      });
+    }
+
+    async function fetchQuotes(tagFilter = '') {
+      let url = `${apiUrlWebApi}/api/quotes`;
+      if (tagFilter) {
+        const tag = allTags.find(t => t.name === tagFilter);
+        if (tag) url = `${apiUrlWebApi}/api/quotes/tags/${tag.id}`;
+      }
+      const res = await fetch(url, { mode: 'cors' });
+      const quotes = await res.json();
+      const tbody = document.getElementById('quotes-body');
+      tbody.innerHTML = '';
+      for (const q of quotes) {
+        const tr = document.createElement('tr');
+
+        const tdContent = document.createElement('td');
+        tdContent.textContent = q.content;
+        tr.appendChild(tdContent);
+
+        const tdAuthor = document.createElement('td');
+        tdAuthor.textContent = q.author || '';
+        tr.appendChild(tdAuthor);
+
+        const tdLikes = document.createElement('td');
+        tdLikes.textContent = q.likes;
+        tr.appendChild(tdLikes);
+
+        const tdTags = document.createElement('td');
+        const tagsRes = await fetch(`${apiUrlWebApi}/api/quotes/${q.id}/tags`, { mode: 'cors' });
+        const tags = await tagsRes.json();
+        tags.forEach(t => {
+          const span = document.createElement('span');
+          span.className = 'tag';
+          span.textContent = t.name;
+          tdTags.appendChild(span);
+        });
+        tr.appendChild(tdTags);
+
+        const tdActions = document.createElement('td');
+
+        const likeBtn = document.createElement('button');
+        likeBtn.textContent = '❤️';
+        likeBtn.onclick = () => likeQuote(q.id);
+        tdActions.appendChild(likeBtn);
+
+        const tagInput = document.createElement('input');
+        tagInput.type = 'text';
+        tagInput.placeholder = 'Tag';
+        tagInput.setAttribute('list', 'tag-suggestions');
+        tagInput.id = `tag-input-${q.id}`;
+        tdActions.appendChild(tagInput);
+
+        const tagBtn = document.createElement('button');
+        tagBtn.textContent = 'Add Tag';
+        tagBtn.onclick = () => addTag(q.id);
+        tdActions.appendChild(tagBtn);
+
+        tr.appendChild(tdActions);
+        tbody.appendChild(tr);
+      }
+    }
+
+    async function createQuote(content, author) {
+      await fetch(`${apiUrlWebApi}/api/quotes`, {
+        method: 'POST',
+        mode: 'cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ content, author })
+      });
+      fetchQuotes();
+    }
+
+    async function likeQuote(id) {
+      await fetch(`${apiUrlWebApi}/api/quotes/${id}/like`, { method: 'POST', mode: 'cors' });
+      fetchQuotes(document.getElementById('tag-filter').value);
+    }
+
+    async function addTag(id) {
+      const input = document.getElementById(`tag-input-${id}`);
+      const name = input.value.trim();
+      if (!name) return;
+      await fetch(`${apiUrlWebApi}/api/quotes/${id}/tags`, {
+        method: 'POST',
+        mode: 'cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name })
+      });
+      input.value = '';
+      fetchQuotes(document.getElementById('tag-filter').value);
+      fetchTags();
+    }
+
+    document.getElementById('quote-form').addEventListener('submit', e => {
+      e.preventDefault();
+      const content = document.getElementById('content').value.trim();
+      const author = document.getElementById('author').value.trim();
+      if (!content) return;
+      createQuote(content, author);
+      document.getElementById('content').value = '';
+      document.getElementById('author').value = '';
+    });
+
+    document.getElementById('filter-button').onclick = () => {
+      const tag = document.getElementById('tag-filter').value;
+      fetchQuotes(tag);
+    };
+
+    document.getElementById('clear-filter').onclick = () => {
+      document.getElementById('tag-filter').value = '';
+      fetchQuotes();
+    };
+
+    window.addEventListener('DOMContentLoaded', () => {
+      fetchTags().then(() => fetchQuotes());
+    });
+  </script>
+</body>
+</html>

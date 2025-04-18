@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  #quote-form {
+    margin-bottom: 20px;
+  }
+  
+  #quote-form input {
+    margin-right: 8px;
+    padding: 4px;
+  }
+  
+  button {
+    padding: 4px 8px;
+    margin-right: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background: #f4f4f4;
+  }
+  
+  .tag {
+    background: #e0e0e0;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin-right: 4px;
+    display: inline-block;
+  }
+  
+  #tag-filter {
+    margin-bottom: 10px;
+    padding: 4px;
+  }
+  

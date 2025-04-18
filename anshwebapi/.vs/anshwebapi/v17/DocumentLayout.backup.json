@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arora\\Downloads\\anshwebapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\models\\quotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\models\\quotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\models\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\models\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\models\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\models\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\models\\quotetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\models\\quotetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|c:\\users\\arora\\downloads\\anshwebapi\\anshwebapi\\anshwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3040FF51-146D-4ABE-9B52-88976085903E}|anshwebapi\\anshwebapi.csproj|solutionrelative:anshwebapi\\anshwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\QuoteDto.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Models\\QuoteDto.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\QuoteDto.cs",
+              "RelativeToolTip": "anshwebapi\\Models\\QuoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T05:49:39.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TagDto.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\TagDto.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Models\\TagDto.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\TagDto.cs",
+              "RelativeToolTip": "anshwebapi\\Models\\TagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T05:46:46.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuotesController.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Controllers\\QuotesController.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Controllers\\QuotesController.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Controllers\\QuotesController.cs",
+              "RelativeToolTip": "anshwebapi\\Controllers\\QuotesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwNEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T03:01:22.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "anshwebapi.http",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\anshwebapi.http",
+              "RelativeDocumentMoniker": "anshwebapi\\anshwebapi.http",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\anshwebapi.http",
+              "RelativeToolTip": "anshwebapi\\anshwebapi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-18T02:55:49.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuoteTag.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\QuoteTag.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Models\\QuoteTag.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\QuoteTag.cs",
+              "RelativeToolTip": "anshwebapi\\Models\\QuoteTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T02:49:52.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\Tag.cs",
+              "RelativeToolTip": "anshwebapi\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T02:49:43.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quote.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\Quote.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Models\\Quote.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Models\\Quote.cs",
+              "RelativeToolTip": "anshwebapi\\Models\\Quote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T02:49:32.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "anshwebapi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T16:18:44.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Program.cs",
+              "RelativeDocumentMoniker": "anshwebapi\\Program.cs",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\Program.cs",
+              "RelativeToolTip": "anshwebapi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T16:17:02.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\appsettings.json",
+              "RelativeDocumentMoniker": "anshwebapi\\appsettings.json",
+              "ToolTip": "C:\\Users\\arora\\Downloads\\anshwebapi\\anshwebapi\\appsettings.json",
+              "RelativeToolTip": "anshwebapi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T04:39:01.906Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
